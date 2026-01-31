@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator - DevForge India</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="theme-toggle">
+            <button id="toggle-theme">🌙 Toggle Theme</button>
+        </div>
+
+        <h1>💸 Tip Calculator</h1>
+
+        <div class="card">
+            <label>Bill Amount ₹
+                <input type="number" id="bill" placeholder="Enter amount" />
+            </label>
+
+            <label>Tip Percentage
+                <div class="tip-options">
+                    <button class="tip-btn">5%</button>
+                    <button class="tip-btn">10%</button>
+                    <button class="tip-btn">15%</button>
+                    <button class="tip-btn">20%</button>
+                    <input type="number" id="custom-tip" placeholder="Custom %" />
+                </div>
+            </label>
+
+            <label>Number of People
+                <input type="number" id="people" placeholder="e.g. 2" />
+            </label>
+
+            <div class="results">
+                <div><strong>Tip Amount:</strong> ₹<span id="tip-amount">0.00</span></div>
+                <div><strong>Total Amount:</strong> ₹<span id="total-amount">0.00</span></div>
+                <div><strong>Per Person:</strong> ₹<span id="per-person">0.00</span></div>
+            </div>
+
+            <div class="actions">
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
