@@ -9,5 +9,5 @@ A simple calculator application to perform basic arithmetic operations.
 - 
 - ## 📸 Screenshot
 
-![Project Screenshot](./calculatororproject.png)
-![Project Screenshot](./calculatorproject1.png)
+![Project Screenshot](./calculatorproject.1png)
+![Project Screenshot](./calculatorproject)
