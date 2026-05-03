@@ -10,4 +10,4 @@ A simple calculator application to perform basic arithmetic operations.
 - ## 📸 Screenshot
 
 ![Project Screenshot](./calculatorproject.1png.png)
-![Project Screenshot](./calculatorproject.png)
+![Project Screenshot](./calculator.png)
